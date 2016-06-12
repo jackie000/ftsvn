@@ -1,0 +1,12 @@
+ /* focus */
+#focus{width:600px;height:270px;overflow:hidden;position:relative;margin-left:9px;margin-top:5px;margin-right:5px;}
+#focus ul{height:270px;position:absolute;}
+#focus ul li{float:left;width:600px;height:270px;overflow:hidden;position:relative;background:#666;}
+#focus ul li div{position:absolute;overflow:hidden;}
+#focus .btnBg{position:absolute;width:600px;height:20px;left:0;bottom:0;}
+#focus .fbtn{position:absolute;width:580px;height:10px;padding:5px 10px;right:0;bottom:0;text-align:right;}
+#focus .fbtn span{display:inline-block;_display:inline;_zoom:1;width:25px;height:10px;_font-size:0;margin-left:5px;cursor:pointer;background:#666;}
+#focus .fbtn span.on{background:#fff;}
+#focus .preNext{width:45px;height:100px;position:absolute;top:90px;background:url(sprite.png) no-repeat 0 0;cursor:pointer;}
+#focus .pre{left:0;}
+#focus .next{right:0;background-position:right top;}

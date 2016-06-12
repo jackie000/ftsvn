@@ -1,0 +1,101 @@
+#checkout_step,#checkout_header {
+	width:920px;
+	margin:0px auto;
+}
+
+#checkout_step{
+	margin-top:5px;
+}
+
+
+#checkout_step .step_one {
+	width:550px;
+	margin-top:10px;
+}
+
+#checkout_header {
+	width:213px;
+	padding-left:50px;
+}
+
+#checkout_step .header_one,#checkout_step .header_two,#checkout_step .header_three  {
+	width:500px;
+	height:25px;
+	background: url("small_step_by_checkout.png") no-repeat scroll 0px 0px transparent;
+}
+
+#checkout_step .header_two {
+	background: url("small_step_by_checkout_2.png") no-repeat scroll 0px 0px transparent;
+}
+
+#checkout_step .header_three {
+	background: url("small_step_by_checkout_3.png") no-repeat scroll 0px 0px transparent;
+}
+
+#checkout_step .header_title ul{
+	width:100%;
+	list-style:none;
+	font-size:11px;
+	font-family:Verdana,Helvetica,sans-serif;
+	font-weight: bold;
+	color:#888;
+}
+
+#checkout_step .header_title ul li{
+	float:left;
+}
+
+#checkout_step .current {
+	color:#CC6600;
+}
+
+#checkout_step .beenset {
+	color:#16850D;
+}
+
+#checkout_step .one_title {
+	padding-left:45px;
+}
+
+#checkout_step .two_title {
+	padding-left:80px;
+}
+
+#checkout_step .three_title {
+	padding-left:80px;
+}
+#checkout_step .header_title{
+	height:15px;
+	line-height:15px;
+}
+
+.bottom_line{
+	height:1px;
+	border-bottom:solid 1px #ccc;
+	margin-top:10px;
+}
+
+.pb10{
+	padding-bottom:10px;
+}
+
+.must_fill{
+	background-color: #EEEECC;
+}
+
+.dec {
+	font-size:12px;
+	font-family:Verdana,Helvetica,sans-serif;
+	color:#333;
+}
+
+.payment_method{
+	border-bottom: 1px solid #DDDDDD;
+    color: #666666;
+    font-family: Verdana,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 15px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}

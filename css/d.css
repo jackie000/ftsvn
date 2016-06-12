@@ -1,0 +1,657 @@
+.products_detail {
+	width:1080px;
+	margin:0px auto;
+	margin-top:5px;
+	border-top:solid 1px #ddd;
+	padding-top:10px;
+}
+
+.product_buy_area {
+	width:1080px;
+	margin:0px auto;
+	border-top:solid 1px #ddd;
+	padding-top:10px;
+}
+
+.product_buy_area .product_images{
+	width:435px;
+}
+
+
+.product_buy_area .product_images dl{
+	float:left;
+}
+
+.product_buy_area .product_images .image_small{
+	width:75px;
+	height:424px;
+	position:relative;
+
+}
+
+.product_buy_area .product_images .image_small .real{
+	height:385px;
+	position:absolute;
+	top:19px;
+	overflow:hidden;
+}
+
+.product_buy_area .product_images .image_small .pre_button,.product_buy_area .product_images .image_small .next_button{
+	height:13px;
+	line-height:13px;
+	width:66px;
+	margin-left:1px;
+	position:absolute;
+	border:solid 1px #bbb;
+	cursor:pointer;
+
+	
+}
+
+.product_buy_area .product_images .image_small .pre_button{
+	top:0px;
+	background:#FFFCF5 url("/images/arrow_up.png") no-repeat 50% 50%;
+}
+
+.product_buy_area .product_images .image_small .next_button{
+	bottom:0px;
+	background:#FFFCF5 url("/images/arrow_down.png") no-repeat 50% 50%;
+	
+}
+
+.product_buy_area .product_images .image_small .real dd{
+	padding:0 0 1px 1px;
+	line-height:10px;
+	width:68px;
+	height:90px;
+	z-index:10;
+}
+
+.product_buy_area .product_images .image_small dd a img{
+    border:2px solid #fff;
+	width:64px;height:86px;display:block;
+}
+
+.product_buy_area .product_images .image_small dd a.zoomThumbActive img{
+    border:2px solid #C82C32;
+}
+
+.product_buy_area .product_images .image_large{
+	width:360px;
+}
+
+.product_buy_area .buy_information{
+	width:630px;
+	padding-left:15px;
+	color:#223;
+}
+
+
+.buy_information .product_title {
+    font-size: 16px;
+	line-height:20px;
+	vertical-align: middle;
+	font-family:verdana,Arial,Helvetica,sans-serif;
+	color:#223;
+	font-weight:bold;
+	padding-bottom:4px;
+	height:42px;
+    
+}
+
+.buy_information .product_title h1{
+    font-size: 18px;
+}
+
+.buy_information .review_wishlist{
+	border-bottom: 1px dashed #999999;
+	padding-bottom:2px;
+	color:#223;
+}
+
+.buy_information .review_wishlist .favorite span {
+	background: url("/images/heart.png") no-repeat scroll 0px 1px transparent;
+	padding-left:14px;
+	width:0px;
+	line-height:12px;
+	height:12px;
+}
+
+.favorited em{
+    background-color: #FED1C7;
+    background-image: -moz-linear-gradient(center top , #FFF2F1, #FED1C7);
+    border-color: #F5B3A3;
+}
+
+
+.buy_information .review_wishlist b{
+	color:#980000;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.buy_information .product_price {
+	margin-top:8px;
+	color:#222;
+} 
+.buy_information .product_price td {
+	height:20px;
+	line-height:20px;
+} 
+
+.buy_information .product_price .item {
+	text-align:right;
+	width:100px;
+}
+
+.buy_information .product_price .value {
+	text-indent:8px;
+	height:35px;
+}
+
+.buy_information .product_price .price {
+	font-size:16px;
+	height:25px;
+	line-height:25px;
+} 
+
+.buy_information .product_price .sales_active {
+	vertical-align: top;
+	padding-top:2px;
+}
+
+.buy_information .buy_options, .list_not_found {
+	margin-top:5px;
+	background: none repeat scroll 0 0 #FFFCF5;
+    border: 1px solid #EDD28B;
+	padding:15px 0;
+	line-height:35px;
+}
+
+.buy_information .buy_options:hover{
+	background: none repeat scroll 0 0 #FFFDEE;
+    border: 1px solid #DF9A07;
+    border-radius: 1px 1px 1px 1px;
+    box-shadow: 0 0 1px #FF6600;
+}
+
+.buy_information .buy_options .buy_options_item{
+	font-size: 12px;
+	font-weight: bold;
+	min-width:100px;
+	text-align:right;
+	padding-right:10px;
+	color:#333;
+}
+
+.buy_information .buy_options select{
+    font-family:Verdana,Helvetica,Arial,sans-serif;
+    min-width: 168px;
+	background-color: #FeFeFe;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    display: inline-block;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0;
+    padding: 5px 1px;
+    vertical-align: middle;
+	color:#333;
+}
+
+.buy_information .buy_options select option{
+	line-height:20px;
+}
+
+
+.buy_information .buy_options .options {
+	width:100%;
+}
+
+
+.buy_information .buy_options .options input {
+	height: 22px;
+    line-height: 22px;
+    outline: medium none;
+    padding: 0 5px 0 3px;
+    vertical-align: middle;
+}
+
+
+.buy_information  .buy_attention{
+	width:300px;
+}
+
+.buy_information  .buy_attention .buy_free_shipping{
+	background:url('/images/air-icon.jpg') no-repeat 0px 5px;
+	padding-left:32px;
+	line-height:35px;
+}
+
+.buy_information  .buy_attention .buy_delivery{
+	background:url('/images/clock.png') no-repeat 0px 4px;
+	padding-left:27px;
+	line-height:35px;
+}
+
+.buy_information .buy_attention .color_chart{
+	background:url('/images/color-chart.png') no-repeat 0px 5px;
+	padding-left:32px;
+	line-height:35px;
+}
+
+.buy_information .buy_attention .size_charts{
+	background:url('/images/measuring.png') no-repeat -7px 13px;
+	padding-left:33px;
+	line-height:35px;
+}
+
+.buy_information .buy_attention .measuring{
+	background:url('/images/link_measuring.jpg') no-repeat 10px 8px;
+	padding-left:33px;
+	line-height:35px;
+}
+
+.buy_information .buy_attention .return{
+	background:url('/images/return.png') no-repeat 0px 5px;
+	padding-left:30px;
+	line-height:35px;
+}
+
+.buy_information .buy_attention .quality{
+	background:url('/images/quality.png') no-repeat 0px 7px;
+	padding-left:28px;
+	line-height:35px;
+}
+
+.buy_information .buy_icon{
+	padding:15px 0 0 60px;
+}
+
+.buy_information .buy_icon img{
+	vertical-align:middle;
+}
+
+.buy_information .buy_icon .wishlist{
+	padding-left:20px;
+	font-size: 12px;
+	line-height:28px;
+}
+
+.dc_title_item{
+	background-color: #AD3231;
+    border-radius: 3px 3px 0 0;
+    color: #FFFFFF;
+    text-shadow: 0 2px 0 #8A2827;
+}
+
+.bought_together{
+	border-bottom:solid 2px #AD3231;
+	width:1080px;
+	margin:15px auto 0;
+
+}
+
+.together{
+	border-left:solid 1px #ddd;
+	border-bottom:solid 1px #ddd;
+	border-right:solid 1px #ddd;
+	width:1078px;
+	margin:0px auto;
+}
+
+.together .current{
+	width:120px;
+	padding:10px 10px;
+}
+
+.together .other{
+	padding-top:3px;
+	width:135px;
+	text-align:center;
+}
+
+.together .also_bought{
+	padding-top:3px;
+	width:178px;
+	text-align:center;
+}
+.together .dec{
+	width:135px;
+	padding:0px 0px 0px 3px;
+
+}
+
+.together .also_bought_dec{
+	width:175px;
+	padding:0px 0px 0px 3px;
+}
+
+.together .dec dt {
+	padding:0px 3px;
+}
+
+.content_area {
+	width:1080px;
+	margin:0px auto;
+}
+.item_description p{
+	padding:8px 15px;
+}
+
+.item_description .left{
+	display: inline;
+    float: left;
+    margin-right: 20px;
+    width: 760px;
+	margin-top:8px;
+	margin-bottom:13px;
+}
+
+.item_description .left dl {
+    float: left;
+    width: 700px;
+	margin-top:5px;
+}
+
+.dotspan{
+	display: inline-block;
+	width:8px;
+	height:8px;
+	background: url("/images/con_icon05.gif") no-repeat scroll left center transparent;
+}
+.item_description .left dl dt {
+    display: inline;
+    float: left;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    padding-right: 11px;
+	text-align:right;
+    width: 128px;
+}
+
+.write_post .post{
+    margin-bottom:15px;
+}
+
+
+.item_description .left dl dd {
+    float: left;
+    line-height: 16px;
+    margin-top: 2px;
+    width: 500px;
+}
+
+.item_description .right{
+	border: 1px solid #E5E5E5;
+    display: inline;
+    float: left;
+    margin-top: 2px;
+    width: 298px;
+}
+
+.item_description .right .icon{
+	margin-top: 5px;
+    width: 217px;
+	margin-left:30px;
+	margin-bottom:10px;
+}
+.item_description .right .payment_icon {
+	background: url("/images/abo_bg04.gif") no-repeat scroll left -352px transparent;
+    height: 27px;
+    
+}
+.item_description .right .shipping_icon {
+	background: url("/images/abo_bg04.gif") no-repeat scroll left -383px transparent;
+    height: 30px;
+}
+.item_description .right .title {
+	border-top: 1px dotted #000000;
+    height: 22px;
+    line-height: 22px;
+    padding-top: 10px;
+	padding-left:16px;
+	font-size:16px;
+    font-weight: bold;
+}
+
+.item_description .right .desc {
+    line-height: 20px;
+    padding-top: 5px;
+    padding-left:18px;
+}
+
+.pop_combo_title{
+	padding:0px 0px 5px;
+	color: #666;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pop_combo_price{
+	padding:20px 0px;
+	text-align:center;
+}
+.red_button{
+	background:url('/images/red_button.png') no-repeat 0 0;
+	width:100px;
+	height:30px;
+	line-height:28px;
+	color:white;
+	font-size: 12px;
+    font-weight: bold;
+	text-align:center;
+	vertical-align:middle;
+	cursor:pointer;
+}
+.rating{
+	width:280px;
+	padding:30px 0px 50px 20px;
+	border-right:1px solid #ddd;
+}
+
+.rating dl dt, .most_helpful h2, .review_list_title h2 {
+	font-size:14px;
+	font-weight:bold;
+	color:#222;
+	font-family:Verdana,Helvetica,Sans-serif;
+	line-height:35px;
+	height:35px;
+	font-weight: bold;
+}
+.rating .write_review{
+	height:40px;
+	line-height:40px;
+}
+
+.content_area .most_helpful{
+	width:758px;
+	padding:10px;
+}
+
+.content_area .most_helpful dt h2{
+	font-size:14px;
+	font-family:Verdana,Helvetica,Sans-serif;
+}
+
+.content_area .most_reviews_content{
+	font-size:11px;
+	padding:5px 0px;
+	color:#999;
+	line-height:20px;
+}
+
+.content_area .most_reviews_content em{
+	color:#333;
+	font-size:13px;
+}
+
+.review_record{
+	width:100%;
+	border-top:solid 1px #ddd;
+	margin-bottom:5px;
+}
+
+.review_record .user{
+	width:195px;
+	padding:15px 0px 0px 15px;
+
+}
+
+
+.review_record .user_comments{
+	width:820px;
+	padding:15px 25px 5px 25px;
+}
+
+.reviews_list{
+	margin-top:10px;
+	border:1px solid #ddd;
+}
+.reviews_list .review_record .user{
+	width:175px;
+	padding:15px 0 10px 20px;
+
+}
+.reviews_list .review_record .user_comments{
+	width:590px;
+	padding:15px 0 10px 10px;
+}
+
+.reviews_list .reviews_list_sort {
+	padding-left:25px;
+	background: none repeat scroll 0 0 #fff;
+	border-top:2px solid #AD3231;
+	line-height:30px;
+	size:14px;
+	font-weight:bold;
+	color:#999;
+}
+.reviews_list .reviews_list_sort span{
+	display: inline-block;
+	padding:0 5px;
+}
+
+.reviews_list .reviews_list_sort .curr{
+	color:#fff;
+	border-top:none;
+	border-bottom:none;
+	background: none repeat scroll 0 0 #AD3231;
+	padding:0 8px;
+}
+
+.review_record .user_comments div{
+	width:100%;
+}
+
+.review_record .user_comments .tags{
+	margin-bottom:10px;
+}
+
+.tags span{
+	display: inline-block;
+    line-height: 22px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 5px;
+    vertical-align: middle;
+	background: none repeat scroll 0 0 #FFFCF5;
+    border: 1px solid #EDD28B;
+	margin-left:8px;
+}
+
+.most_helpful ul,.review_list_title ul {
+	list-style:none;
+	display: inline-block;
+}
+
+.most_helpful ul li, .review_list_title ul li {
+	list-style:none;
+	float:left;
+	padding-left:10px;
+	padding-bottom:8px;
+}
+
+.review_record .user_comments .content{
+	line-height:20px;
+	color:#333;
+	font-size:12px;
+}
+
+
+.customer_tags .review_record .user_comments .useful input{
+	font-size: 12px;
+    font-weight: normal;
+    line-height: 12px;
+    padding: 1px 6px 2px;
+	background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+}
+
+.ctrbg{
+	background-color: #FFFCF5;
+	border-top:solid 1px #EDD28B;
+}
+
+.fqa{
+	padding-top:8px;
+	padding-bottom:15px;
+	border-bottom: 2px dotted #EDD28B;
+}
+.fqa .item{
+	width:50px;
+	text-align:center;
+	line-height:25px;
+	vertical-align: top;
+}
+
+.fqa .item h2{
+	font-size:12px;
+	font-family:Verdana,Helvetica,Sans-serif;
+	font-weight: bold;
+}
+
+.fqa .content{
+	line-height:20px;
+	padding-top:2px;
+	vertical-align: top;
+}
+
+
+.fqa .customer{
+	width:100px;
+	white-space:nowrap;
+	text-align:center;
+	line-height:25px;
+	vertical-align: top;
+}
+
+.fqa .customer b{
+	color:#222;
+    font-weight: normal;
+}
+
+.fqa .date{
+	width:150px;
+	white-space:nowrap;
+	text-align:center;
+	line-height:25px;
+	vertical-align: top;
+}
+
+.no_bottom{
+	border-bottom:none;
+}
+
+.customer_tags_input{
+height:22px;
+line-height:22px;
+width:100px;
+border:0px;font-size:11px;font-family:Verdana,Helvetica,sans-serif,'宋体';color: #999;
+}
+.red_frame{
+    border-color:red;
+}

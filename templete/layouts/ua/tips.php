@@ -1,0 +1,1 @@
+<p class="_tips <?php echo $type;?>"><?php echo $msg;?></p>
